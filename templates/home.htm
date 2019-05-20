@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twf</title>
+</head>
+<body>
+	<h1>TWf Solution</h1>
+	<p>note: input 0 if quantity 0  </p>
+
+	<form method="post" action="submit">{% csrf_token%}
+		<input type="text"  placeholder="Enter qunatity of A" name="A">
+		<br />
+		<input type="text"  placeholder="Enter qunatity of B" name="B">
+		<br />
+		<input type="text"  placeholder="Enter qunatity of C" name="C">
+		<br />
+		<input type="text"  placeholder="Enter qunatity of D" name="D">
+		<br />
+		<input type="text"  placeholder="Enter qunatity of E" name="E">
+		<br />
+		<input type="text"  placeholder="Enter qunatity of F" name="F">
+		<br>
+		<input type="text"  placeholder="Enter qunatity of G" name="G">
+		<br>
+		<input type="text"  placeholder="Enter qunatity of H" name="H">
+		<br>
+		<input type="text"  placeholder="Enter qunatity of I" name="I">
+		<br>
+		<input type="submit" value="Calculate" name="submit">
+
+	</form>
+	
+	<p>the minimun cost of travelling is:{{value}}</p>
+	
+</body>
+</html>
